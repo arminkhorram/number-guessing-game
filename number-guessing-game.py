@@ -28,7 +28,7 @@ def game():
             print("You ran out of guess, The answer was number ",  actual_number)
             break
         
-        else:
+        elif guess_limit <= 3 and guessed_number == actual_number:
             print("You guessed it right! The number is ", actual_number)    
 
 instructions()
